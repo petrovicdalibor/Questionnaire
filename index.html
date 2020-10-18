@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questionnaire</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div id="quiz">
+            <h2 id="quiz-header">Question text</h2>
+
+            <ul>
+                <li>
+                    <input type="radio" id="a" name="question">
+                    <span class="checkmark"></span>
+                    <label id="a-text" for="a">Answer</label>
+                </li>
+                <li>
+                    <input type="radio" id="b" name="question" />
+                    <span class="checkmark"></span>
+                    <label id="b-text" for="b">Answer</label>
+                </li>
+                <li>
+                    <input type="radio" id="c" name="question" />
+                    <span class="checkmark"></span>
+                    <label id="c-text" for="c">Answer</label>
+                </li>
+                <li>
+                    <input type="radio" id="d" name="question" />
+                    <span class="checkmark"></span>
+                    <label id="d-text" for="d">Answer</label>
+                </li>
+            </ul>
+
+            <button id="submitBtn">Submit</button>
+        </div>
+
+        <div id="results">
+            <h2 id="res-header">Quiz Results</h2>
+            <ul id="res-ul">
+            </ul>
+
+            <div id="submitBtn1">4/4 Correct Answers</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="https://uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924" target="_blank"><i class="fab fa-sketch blue"></i> Design Source</a> | <a href="https://github.com/petrovicdalibor/Questionnaire"><i class="fab fa-github blue"></i> Github</a> | With <i class="fas fa-heart red"></i> by Dalibor Petrovic
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
